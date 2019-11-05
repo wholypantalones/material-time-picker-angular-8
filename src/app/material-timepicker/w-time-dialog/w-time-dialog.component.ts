@@ -1,11 +1,12 @@
-import { CLOCK_TYPE, ITime } from '../w-clock/w-clock.component';
-import { Component, Inject } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material';
-import { MatDialogRef } from '@angular/material';
+import { CLOCK_TYPE, ITime } from "../w-clock/w-clock.component";
+import { Component, Inject } from "@angular/core";
+import { MAT_DIALOG_DATA } from "@angular/material";
+import { MatDialogRef } from "@angular/material";
+import { Utils } from '../utils';
 
 @Component({
-  styleUrls: ['./w-time-dialog.component.scss'],
-  templateUrl: './w-time-dialog.component.html'
+  styleUrls: ["w-time-dialog.component.scss"],
+  templateUrl: "w-time-dialog.component.html"
 })
 export class WTimeDialogComponent {
   userTime: ITime;
