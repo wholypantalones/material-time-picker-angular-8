@@ -4,9 +4,9 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 import { FormsModule } from "@angular/forms";
 
-import { AppComponent } from "./app.component";
+import { AppComponent } from './app.component';
 
-import { MaterialTimePickerModule } from "./material-timepicker/material-timepicker.module";
+import { MaterialTimePickerModule } from './material-timepicker/material-timepicker.module';
 
 import { MatCardModule } from "@angular/material";
 

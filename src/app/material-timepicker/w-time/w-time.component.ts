@@ -6,7 +6,7 @@ import {
   Input,
   OnInit,
   Output
-  } from '@angular/core';
+} from '@angular/core';
 
 @Component({
   selector: 'w-time',
